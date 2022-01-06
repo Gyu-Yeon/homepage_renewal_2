@@ -1,28 +1,20 @@
 ::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
-
 div {
-    box-sizing: border-box;
-    will-change: transform;
+  box-sizing: border-box;
+  will-change: transform;
 }
 
 body {
-    margin: 0;
-    height: 100vh;
-
-
-
-
+  margin: 0;
+  height: 100vh;
 }
 
 html {
-    line-height: 1.15;
-    /*기본 행간 높이*/
-
-
-
+  line-height: 1.15;
+  /*기본 행간 높이*/
 }
 
 p,
@@ -32,452 +24,397 @@ h3,
 h2,
 h1,
 span {
-    transform: rotate(0.04deg);
+  transform: rotate(0.04deg);
 }
 
-
-
-
 .main-container {
-    width: 100%;
+  width: 100%;
 
-    background-color: white;
-    display: flex;
-    flex-flow: column;
-
+  background-color: white;
+  display: flex;
+  flex-flow: column;
 }
 
 .main-slider {
-    width: 100vw;
-    height: 100vh;
-    background-color: beige;
-    position: relative;
-    display: flex;
-    float: left;
-
+  width: 100vw;
+  height: 100vh;
+  background-color: beige;
+  position: relative;
+  display: flex;
+  float: left;
 }
 
 .overlay-nav-screen {
-    width: 100vw;
-    height: 100vh;
-    background-color: lightslategrey;
-    position: fixed;
-    display: none;
-    overflow-x: hidden;
+  width: 100vw;
+  height: 100vh;
+  background-color: lightslategrey;
+  position: fixed;
+  display: none;
+  overflow-x: hidden;
 }
 
 .hamburger-container {
-    width: 100%;
-    height: 5%;
-    background-color: transparent;
-    z-index: 10;
-    position: fixed;
+  width: 100%;
+  height: 5%;
+  background-color: transparent;
+  z-index: 10;
+  position: fixed;
 }
 
 .hamburger-container i {
-    padding: 15px;
-    position: fixed;
-    right: 10%;
-    font-size: 25px;
-
+  padding: 15px;
+  position: fixed;
+  right: 10%;
+  font-size: 25px;
 }
 
-
 .img-container {
-    width: 100vw;
-    height: 76vh;
-    background-color: white;
+  width: 100vw;
+  height: 76vh;
+  background-color: white;
 }
 
 .img-container img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
-
-
-
-
 .containers {
-    width: 100vw;
-    height: 100vh;
-    background-color: white;
-    display: flex;
-    flex-flow: column;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  flex-flow: column;
 }
 
 .smartfactory-container {
-    width: 100vw;
-    height: 100vh;
-    background-color: bisque;
-    display: flex;
-
-
+  width: 100vw;
+  height: 100vh;
+  background-color: bisque;
+  display: flex;
 }
 
-
-
 .title-container {
-    width: 100vw;
-    height: 19vh;
-    background-color: transparent;
-    position: absolute;
-    top: 57vh;
-    color: white;
+  width: 100vw;
+  height: 19vh;
+  background-color: transparent;
+  position: absolute;
+  top: 57vh;
+  color: white;
 }
 
 .title {
-    font-weight: 800;
-    font-size: 9vh;
-    margin-top: 5px;
+  font-weight: 800;
+  font-size: 9vh;
+  margin-top: 5px;
 }
 
 .circle:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .circle1 {
-    width: 10px;
-    height: 10px;
-    background-color: aliceblue;
-    border-radius: 10px;
-    margin-right: 10px;
+  width: 10px;
+  height: 10px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  margin-right: 10px;
 }
 
 .circle2 {
-    width: 10px;
-    height: 10px;
-    background-color: aliceblue;
-    border-radius: 10px;
-    margin-right: 10px;
+  width: 10px;
+  height: 10px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  margin-right: 10px;
 }
 
 .circle3 {
-    width: 10px;
-    height: 10px;
-    background-color: aliceblue;
-    border-radius: 10px;
-    margin-right: 10px;
+  width: 10px;
+  height: 10px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  margin-right: 10px;
 }
 
 .circle4 {
-    width: 10px;
-    height: 10px;
-    background-color: aliceblue;
-    border-radius: 10px;
-    margin-right: 10px;
+  width: 10px;
+  height: 10px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  margin-right: 10px;
 }
 
 .circle5 {
-    width: 10px;
-    height: 10px;
-    background-color: aliceblue;
-    border-radius: 10px;
-    margin-right: 10px;
+  width: 10px;
+  height: 10px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  margin-right: 10px;
 }
 
 .title-box {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 
-    margin-left: 16vw;
+  margin-left: 16vw;
 }
 
-
-
 .sub-title {
-    margin-top: 30px;
-    font-size: 1.05vw;
-    font-weight: 800;
+  margin-top: 30px;
+  font-size: 1.05vw;
+  font-weight: 800;
 }
 
 .circle-container {
-    display: flex;
-    width: 100px;
-    height: 20px;
+  display: flex;
+  width: 100px;
+  height: 20px;
 }
 
 .trans {
-    transform: translateX(-100vw);
-    transition: all 1s;
+  transform: translateX(-100vw);
+  transition: all 1s;
 }
 
 .trans2 {
-    transform: translateX(-200vw);
-    transition: all 1s;
+  transform: translateX(-200vw);
+  transition: all 1s;
 }
 
 .trans3 {
-    transform: translateX(-300vw);
-    transition: all 1s;
+  transform: translateX(-300vw);
+  transition: all 1s;
 }
 
 .trans4 {
-    transform: translateX(-400vw);
-    transition: all 1s;
+  transform: translateX(-400vw);
+  transition: all 1s;
 }
 
 .trans5 {
-    transform: translateX(0);
-    transition: all 2s;
+  transform: translateX(0);
+  transition: all 2s;
 }
 
 .trans6 {
-    transform: translateY(0; );
-    transition: all 1s;
+  transform: translateY(0);
+  transition: all 1s;
 }
 
 .trans7 {
-    transform: translateY(-89.5vh);
-    transition: all 1s;
+  transform: translateY(-89.5vh);
+  transition: all 1s;
 }
 
 .trans8 {
-    transform: translateY(-179vh);
-    transition: all 1s;
+  transform: translateY(-179vh);
+  transition: all 1s;
 }
 
 .trans9 {
-    transform: translateY(-267vh);
-    transition: all 1s;
+  transform: translateY(-267vh);
+  transition: all 1s;
 }
 
 .trans10 {
-    transform: translateY(-356vh);
-    transition: all 1s;
+  transform: translateY(-356vh);
+  transition: all 1s;
 }
 
 .trans11 {
-    transform: translateY(-445vh);
-    transition: all 1s;
+  transform: translateY(-445vh);
+  transition: all 1s;
 }
 
 .trans12 {
-    transform: translateY(-534vh);
-    transition: all 1s;
+  transform: translateY(-534vh);
+  transition: all 1s;
 }
 
 .trans13 {
-    transform: translateY(-623vh);
-    transition: all 1s;
+  transform: translateY(-623vh);
+  transition: all 1s;
 }
 
 .trans14 {
-    transform: translateY(-712vh);
-    transition: all 1s;
+  transform: translateY(-712vh);
+  transition: all 1s;
 }
 
 .scroll-action-container {
-    width: 100%;
-    height: 24vh;
-    background-color: white;
-    display: flex;
+  width: 100%;
+  height: 24vh;
+  background-color: white;
+  display: flex;
 }
 
 .readMore-container {
-    width: 33.3vw;
-    height: 100%;
-    background-color: white;
-
+  width: 33.3vw;
+  height: 100%;
+  background-color: white;
 }
-.readMore-container img{
-margin-left: 14.5vw;    
+.readMore-container img {
+  margin-left: 14.5vw;
 }
 
 .mouseScroll-container {
-    width: 33.4vw;
-    height: 100%;
-    background-color: white;
-    display: flex;
-    flex-flow: column;
-
-
+  width: 33.4vw;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  flex-flow: column;
 }
 
 .toBottom-container {
-    width: 33.3vw;
-    height: 100%;
-    background-color: white;
-
+  width: 33.3vw;
+  height: 100%;
+  background-color: white;
 }
-
-
 
 .downEmoji {
-    text-align: center;
-    display: block;
-    position: relative;
-    top: 55%;
-    left: 0%;
-    font-size: 30px;
-
+  text-align: center;
+  display: block;
+  position: relative;
+  top: 55%;
+  left: 0%;
+  font-size: 30px;
 }
 
-
-
 .current-color {
-    background-color: black;
+  background-color: black;
 }
 
 .mouseIcon {
-    height: 50%;
-    display: block;
-    margin: auto;
-    background-color: white;
+  height: 50%;
+  display: block;
+  margin: auto;
+  background-color: white;
 }
 
 .imgIcon {
-    display: block;
-    margin: auto;
-
+  display: block;
+  margin: auto;
 }
 
-.product-container{
-    position: relative;
+.product-container {
+  position: relative;
 }
 .ifactory-container {
-    width: 100vw;
-    height: 100vh;
-    
-
+  width: 100vw;
+  height: 100vh;
 }
 
 .vtd-container {
-    width: 100vw;
-    height: 100vh;
-    background-color: green;
-
-
-
+  width: 100vw;
+  height: 100vh;
+  background-color: green;
 }
 
 .ptv-container {
-    width: 100vw;
-    height: 100vh;
-    background-color: red;
-
-
+  width: 100vw;
+  height: 100vh;
+  background-color: red;
 }
 
 .sfe-container {
-    width: 100vw;
-    height: 100vh;
-    background-color: yellow;
-
+  width: 100vw;
+  height: 100vh;
+  background-color: yellow;
 }
 
 .dymola-container {
-    width: 100vw;
-    height: 100vh;
-    background-color: grey;
-
-
+  width: 100vw;
+  height: 100vh;
+  background-color: grey;
 }
 
 .modelon-container {
-    width: 100vw;
-    height: 100vh;
-    background-color: purple;
-
-
+  width: 100vw;
+  height: 100vh;
+  background-color: purple;
 }
 
 .tlk-container {
-
-    width: 100vw;
-    height: 100vh;
-    background-color: salmon;
-
-
+  width: 100vw;
+  height: 100vh;
+  background-color: salmon;
 }
 
 .opv-container {
-    width: 100vw;
-    height: 100vh;
-    background-color: darkkhaki;
-
-
+  width: 100vw;
+  height: 100vh;
+  background-color: darkkhaki;
 }
 
 .img-containers {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .img-containers img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .main-slider1 {
-    float: left;
-    overflow: auto;
-    overflow-y: hidden;
-    height: 100vh;
-    
-
-}      
-
-.mouseIconBox {
-    height: 50%;
+  float: left;
+  overflow: auto;
+  overflow-y: hidden;
+  height: 100vh;
 }
 
+.mouseIconBox {
+  height: 50%;
+}
 
-
-@media screen and (max-width : 1400px) {
-    .img-container img{
+@media screen and (max-width: 1400px) {
+  .img-container img {
     width: 100%;
-    }
-.title-container {
+  }
+  .title-container {
     width: 100vw;
     height: 16vh;
     background-color: transparent;
     position: absolute;
     top: 57vh;
     color: white;
+  }
 }
 
-
+@media screen and (max-height: 1600) {
 }
-
-@media screen and (max-height : 1600) {
-    
-}
-
-
 
 .ifactory-img-container {
-    position: relative;
+  position: relative;
 }
 
 .tech-title-box {
-    width: 100vw;
-    height: 35vh;
-    position: absolute;
-    top:48vh;
-    background-color:transparent;
-    color: white;
-    
+  width: 100vw;
+  height: 35vh;
+  position: absolute;
+  top: 48vh;
+  background-color: transparent;
+  color: white;
 }
 
 .word-box {
-    margin-left: 16vw;
+  margin-left: 16vw;
 }
 
 .word-product {
-     font-size: 1.05vw;
-    font-weight: 600;
-    margin-bottom: 1vh;
-    
+  font-size: 1.05vw;
+  font-weight: 600;
+  margin-bottom: 1vh;
 }
 
 .big-word {
-    font-size: 12vh;
-    font-weight: 800;
-    color: black;
+  font-size: 12vh;
+  font-weight: 800;
+  color: black;
 }
 
 .img-small-box {
-    margin-top: 80px;
-    margin-left: 14.5vw;
+  margin-top: 80px;
+  margin-left: 14.5vw;
 }
