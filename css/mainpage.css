@@ -42,10 +42,7 @@ span {
   position: relative;
   display: flex;
   float: left;
-<<<<<<< HEAD
-=======
   will-change: transform;
->>>>>>> homepage3
 }
 
 .overlay-nav-screen {
