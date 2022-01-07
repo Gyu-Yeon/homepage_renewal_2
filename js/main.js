@@ -75,8 +75,22 @@ let comCounter = 0;
 //   }
 // }
 
+function tabOpen(e) {
+  if (e.target.dataset.id == 0) {
+    if (techCounter == 0) {
+      $(".level2").addClass("trans7");
+      techCounter++;
+    } else if (techCounter == 1) {
+      $(".level2").removeClass("trans7");
+      techCounter--;
+    }
+  }
+  if (e.target.dataset.id == 1) {
+  }
+}
+
 $(".tech-btn").click(e => {
-  slidePage(e);
+  tabOpen(e);
 });
 
 $(".product-btn").click(() => {
